@@ -237,10 +237,13 @@ fill: var(--link-color);
 .footer .container {
   display: flex;
  align-items: baseline;
+ 
+ /*justify-content: space-around;*/
 }
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+
  
 }
 
@@ -1058,7 +1061,7 @@ color:var(--accent-color);
 .modal-form-btn{
   width: 200px;
   height: 50px;
-  background: #2196F3;
+  background: var(--link-color)3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
  font-family: var(--text-font);
@@ -1129,3 +1132,4 @@ margin-bottom: 20px;
 .footer-input::placeholder{
   padding: 16px 15px;
 }
+
