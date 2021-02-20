@@ -957,7 +957,6 @@ color:var(--link-color);
   align-items: center;
 }
 .modal-form-input-label{
-  margin-bottom: 10px;
   font-family:var(--text-font);
 font-style: normal;
 font-weight:400;
